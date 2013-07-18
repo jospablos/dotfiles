@@ -65,6 +65,8 @@
 (global-set-key "\M-d" 'delete-word)
 (global-set-key "\M-h" 'backward-delete-word)
 (global-set-key "\M-u" 'zap-to-char)
+(normal-erase-is-backspace-mode 0)
+(global-linum-mode t)
 
 ;; ---------------------------
 ;; -- JS Mode configuration --
